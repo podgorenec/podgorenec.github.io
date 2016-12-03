@@ -1,9 +1,19 @@
+var loc_post = {title: "Подгоренский Почтамт", loc: {lat: 50.402026, lng: 39.636019}};
+var loc_red = {title: "Редакция газеты \"Подгоренец\"", loc: {lat: 50.401950, lng: 39.636963}};
+
+
 var map;        
-var myCenter=new google.maps.LatLng(50.401950, 39.636963);
+var myCenter=new google.maps.LatLng(loc_post.loc);
 var marker=new google.maps.Marker({
     position:myCenter,
-    title:"hello"
+    title: loc_post.title,
+    label: "P"
 });
+
+
+function getPost() {
+
+}
 
 function initialize() {
   var mapProp = {
