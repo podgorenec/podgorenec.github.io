@@ -1,0 +1,144 @@
+@font-face {
+  font-family: 'BebasBold';
+  src:  url('/fonts/BebasBold.woff2') format('woff2'),
+        url('/fonts/BebasBold.woff') format('woff');
+}
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (max-width : 320px) { 
+	s1{font-size: 96px;}
+}
+
+@media (min-width: @screen-sm-min) { 
+	.s1{font-size: 96px;}
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {
+	.s1{font-size: 96px;}
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+	.s1{font-size: 96px;}
+}
+
+
+body{
+	font-family: 'BebasBold';
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background: none;
+}
+
+html, body { height: 100%; margin: 0; padding: 0; }
+      #map { height: 100%; }
+
+#map-canvas {
+  width:500px;
+  height:480px;
+}
+
+.girl {
+	background: url('../img/bg1.jpg') no-repeat center;
+	/* min-height: 642px; */
+	background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+
+	
+}
+
+.s1 {
+	font-size: 48px;
+	color: #000000;
+}
+
+.s2 {
+	font-size: 48px;
+	color: #000000;
+}
+
+.s3 {
+	font-size: 36px;
+	color: #000000;
+}
+
+.s4 {
+
+}
+.price1 {
+}
+.price1_1 {
+	font-size: 48px;
+	margin-bottom: -20px;
+}
+
+.price1_2 {
+	font-size: 70px;
+	color: #f6d258;
+	background: url('../img/price.png') no-repeat;
+	margin-bottom: -20px;
+
+}
+
+.price1_3 {
+	font-size: 24px;
+	margin-bottom: 40px;
+}
+
+.c1 {
+	background: #88b14b;
+}
+
+.c2 {
+	background: #f6d258;
+}
+.t1 {
+	font-size: 48px;
+	margin-bottom: -20px;
+}
+
+.t2 {
+	margin-bottom: -20px;
+	font-size: 36px;
+}
+
+.t3 {
+	background: url('../img/price.png') no-repeat;
+	font-size: 70px;
+	color: #ffffff;
+}
+
+.t4 {
+	margin-top: -10px;
+	font-size: 26px;
+}
+
+
+.bg3 {
+	background: url('../img/bg3.jpg') no-repeat center;
+	/* min-height: 642px; */
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
+
+}
+
+.c3 {
+	color: #ffffff;
+	font-size: 48px;
+	margin-bottom: -10px;
+}
+
+.c4 {
+	color: #ffffff;
+	font-size: 48px;
+	margin-bottom: 300px;
+}
